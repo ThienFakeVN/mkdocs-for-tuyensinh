@@ -1,5 +1,5 @@
 site_name: MkDocs for Tuyển sinh
-site_url: https://thienfakevn.github.io/mkdocs_for_tuyensinh/
+site_url: https://thienfakevn.github.io/mkdocs-for-tuyensinh/
 
 theme:
     name: material
