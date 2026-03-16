@@ -9,4 +9,4 @@ theme:
         primary: indigo
 
 nav:
-	- Home: index.md
+  - Home: index.md
