@@ -1,0 +1,12 @@
+site_name: MkDocs for Tuyển sinh
+site_url: https://thienfakevn.github.io/mkdocs_for_tuyensinh/
+
+theme:
+    name: material
+    language: vi
+    palette: 
+        scheme: slate
+        primary: indigo
+
+nav:
+	Home: index.md
