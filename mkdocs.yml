@@ -9,4 +9,5 @@ theme:
         primary: indigo
 
 nav:
-  - Home: index.md
+  - Trang chủ: index.md
+  - Đóng góp: dong-gop.md
