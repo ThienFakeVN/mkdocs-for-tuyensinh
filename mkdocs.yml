@@ -9,5 +9,30 @@ theme:
         primary: indigo
 
 nav:
-  - Trang chủ: index.md
-  - Đóng góp: dong-gop.md
+    - Trang chủ: index.md
+    - Đóng góp: dong-gop.md
+    - Tiếng Anh:
+        - Cấu trúc đề: tieng-anh/index.md
+        - Ngữ âm: tieng-anh/ngu-am.md
+        - Ngữ pháp: tieng-anh/ngu-phap.md
+        - Đục lỗ: tieng-anh/duc-lo.md
+        - True/False: tieng-anh/true-false.md
+        - Word form: tieng-anh/word-form.md
+        - Từ điển: tieng-anh/tu-dien.md
+        - Viết lại câu: tieng-anh/viet-lai-cau.md
+    - Toán:
+        - Cấu trúc đề: toan/index.md
+        - Bài 1: toan/bai-1.md
+
+markdown_extensions:
+    - pymdownx.arithmatex:
+        generic: true
+
+extra_javascript:
+    - javascripts/mathjax.js
+    - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# Những thứ khác ở trên đây...
+
+extra_css:
+    - stylesheets/extra.css
