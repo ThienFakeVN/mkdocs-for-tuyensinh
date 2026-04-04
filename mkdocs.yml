@@ -29,10 +29,8 @@ markdown_extensions:
         generic: true
 
 extra_javascript:
-    - javascripts/mathjax.js
     - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
-# Những thứ khác ở trên đây...
+    - javascripts/1a.js
 
 extra_css:
     - stylesheets/extra.css

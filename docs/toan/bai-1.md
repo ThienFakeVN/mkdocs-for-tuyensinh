@@ -20,29 +20,19 @@ __Lập bảng giá trị__
 
 Bạn có thể xem bảng giá trị được lập dựa trên số $a$ mà bạn nhập dưới đây:
 
-| $x$        | $-2$ | $-1$ | $0$ | $1$ | $2$ |
-|------------|------|------|-----|-----|-----|
-| $y = ax^2$ |      |      |     |     |     |
+| $x$        | <p id="x1"></p> | <p id="x2"></p> | $0$ | <p id="x3"></p> | <p id="x4"></p> |
+|------------|-----------------|-----------------|-----|-----------------|-----------------|
+| $y = ax^2$ | <p id="y1"></p> | <p id="y2"></p> | $0$ | <p id="y3"></p> | <p id="y4"></p> |
 
-<input placeholder="Nhập một số" value="1" id="input1">
-<input placeholder="Nhập tử số" value="1" id="input2" style="display:none"> <input placeholder="Nhập mẫu số" value="2" id="input3" style="display:none">
-<button id="button1" onclick="fraction()">Đổi sang phân số</button>
-<button id="button2" style="display:none" onclick="integer()">Đổi sang số</button>
+<strong style="color:red" id="alert"></strong>
 
-<script>
-    function fraction() {
-        document.getElementById("input1").style.display = "none";
-        document.getElementById("input2").style.display = "block";
-        document.getElementById("input3").style.display = "block";
-        document.getElementById("button1").style.display = "none";
-        document.getElementById("button2").style.display = "block";
-    }
+<div id="integerDiv">
+    <input placeholder="Nhập một số" id="integerInput">
+    <button onclick="toFraction()">Đổi sang phân số</button>
+</div>
+<div id="fractionDiv" style="display:none">
+    <input placeholder="Nhập tử số" id="numeratorInput"> <input placeholder="Nhập mẫu số" id="denominatorInput">
+    <button onclick="toInteger()">Đổi sang số</button>
+</div>
 
-    function integer() {
-        document.getElementById("input1").style.display = "block";
-        document.getElementById("input2").style.display = "none";
-        document.getElementById("input3").style.display = "none";
-        document.getElementById("button1").style.display = "block";
-        document.getElementById("button2").style.display = "none";
-    }
-</script>
+<script scr="docs/javascripts/1a.js"></script>
